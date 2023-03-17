@@ -1,7 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 const HeaderSocials = () => {
   return (
@@ -14,9 +14,9 @@ const HeaderSocials = () => {
         {" "}
         <BsGithub size={30} />
       </a>
-      <a href="https://instagram.com" target="_blank">
+      <a href="mailto:sc2448@cornell.edu" target="_blank">
         {" "}
-        <BsInstagram size={30} />
+        <AiOutlineMail size={30} />
       </a>
     </div>
   );
