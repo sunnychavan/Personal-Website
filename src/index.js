@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
+import Skills from "./components/skills/Skills";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -15,8 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <Header />
-    <Nav />
-    <About />
+    <Skills />
     <Experience />
     <Portfolio />
     <Contacts />

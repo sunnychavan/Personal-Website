@@ -1,6 +1,6 @@
 .experience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -18,15 +18,58 @@
 }
 
 .experience__container > div h3 {
-  text-align: center;
-  margin-bottom: 2rem;
+  text-align: left;
+  margin-bottom: 1rem;
   color: var(--color-primary);
 }
 
-.experience__content {
+.experience__container > div h4 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary-variant);
+  font-style: normal;
+}
+
+.experience__example__header {
+  font-style: italic;
+}
+
+.experience__example__header > img {
+  /* margin-left: 14rem;
+  overflow: visible;
+  width: 130px;
+  height: 50px; */
+  position: relative;
+  bottom: 1rem;
+  left: 16rem;
+  width: 150px;
+  height: 50px;
+
+  object-fit: cover;
+}
+
+.experience__container > div h5 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-light);
+}
+
+.experience__example__content__overview > h4 {
+  font-style: oblique;
+}
+
+.experience__example__content {
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.experience__example__header-image > img {
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
 .experience__details {
