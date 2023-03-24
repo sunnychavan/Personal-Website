@@ -1,0 +1,111 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience__container > div h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.experience__container > div h4 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary-variant);
+  font-style: normal;
+}
+
+.experience__example__header {
+  font-style: italic;
+}
+
+.experience__example__header > img {
+  /* margin-left: 14rem;
+  overflow: visible;
+  width: 130px;
+  height: 50px; */
+  position: relative;
+  bottom: 1rem;
+  left: 16rem;
+  width: 150px;
+  height: 50px;
+
+  object-fit: cover;
+}
+
+.experience__container > div h5 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-light);
+}
+
+.experience__example__content__overview > h4 {
+  font-style: oblique;
+}
+
+.experience__example__content {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.experience__example__header-image > img {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ========= */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    padding: 1rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ========= */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

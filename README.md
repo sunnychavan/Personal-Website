@@ -1,3 +1,15 @@
+# Planning:
+
+1.  Portfolio Projects to Cover
+
+- Monopoly
+- Flight Routes (3300)
+- COVID-19 US Stock Market
+- EWB Documentation Website
+- EWB GUI
+  Down The Road
+- RUST AI (CS Prac)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
