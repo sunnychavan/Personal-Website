@@ -10,6 +10,10 @@
   Down The Road
 - RUST AI (CS Prac)
 
+## Still Needs Work:
+
+- Fix "Github Button" and footer social icons with different size screens
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
