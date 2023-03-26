@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.4b31cd62.css",
+    "main.js": "/Personal-Website/static/js/main.a0119732.js",
+    "static/js/787.67b99310.chunk.js": "/Personal-Website/static/js/787.67b99310.chunk.js",
+    "static/media/EWBWebsite.png": "/Personal-Website/static/media/EWBWebsite.6cb1bdf3a64669f872fc.png",
+    "static/media/CS3300AirportTravel.png": "/Personal-Website/static/media/CS3300AirportTravel.4e09a7d5e8155019f19d.png",
+    "static/media/EWBGUI.png": "/Personal-Website/static/media/EWBGUI.79a66a0e503a7414a58c.png",
+    "static/media/Covid19StockMarket.png": "/Personal-Website/static/media/Covid19StockMarket.08c6e3cd68cab4bdaca4.png",
+    "static/media/BlackStoneHeadShotBackGroundRemoved.png": "/Personal-Website/static/media/BlackStoneHeadShotBackGroundRemoved.8107c05ca6f717d695bc.png",
+    "static/media/SunnyChavanResumePersonalInfoRemoved.pdf": "/Personal-Website/static/media/SunnyChavanResumePersonalInfoRemoved.e95f67906375107f0b34.pdf",
+    "static/media/Monopoly.png": "/Personal-Website/static/media/Monopoly.d2b41a302887733f7bc7.png",
+    "static/media/bg-texture6.png": "/Personal-Website/static/media/bg-texture6.d96df2cc1c641fcc67dc.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.4b31cd62.css.map": "/Personal-Website/static/css/main.4b31cd62.css.map",
+    "main.a0119732.js.map": "/Personal-Website/static/js/main.a0119732.js.map",
+    "787.67b99310.chunk.js.map": "/Personal-Website/static/js/787.67b99310.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b31cd62.css",
+    "static/js/main.a0119732.js"
+  ]
+}
