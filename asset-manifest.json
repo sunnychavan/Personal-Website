@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b22d9894.css",
-    "main.js": "/static/js/main.c24e1b52.js",
+    "main.css": "/static/css/main.9a0706fb.css",
+    "main.js": "/static/js/main.c2949336.js",
     "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
     "static/media/EWBWebsite.png": "/static/media/EWBWebsite.6cb1bdf3a64669f872fc.png",
     "static/media/CS3300AirportTravel.png": "/static/media/CS3300AirportTravel.4e09a7d5e8155019f19d.png",
@@ -12,12 +12,12 @@
     "static/media/Monopoly.png": "/static/media/Monopoly.d2b41a302887733f7bc7.png",
     "static/media/bg-texture6.png": "/static/media/bg-texture6.d96df2cc1c641fcc67dc.png",
     "index.html": "/index.html",
-    "main.b22d9894.css.map": "/static/css/main.b22d9894.css.map",
-    "main.c24e1b52.js.map": "/static/js/main.c24e1b52.js.map",
+    "main.9a0706fb.css.map": "/static/css/main.9a0706fb.css.map",
+    "main.c2949336.js.map": "/static/js/main.c2949336.js.map",
     "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b22d9894.css",
-    "static/js/main.c24e1b52.js"
+    "static/css/main.9a0706fb.css",
+    "static/js/main.c2949336.js"
   ]
 }
