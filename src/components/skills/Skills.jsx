@@ -23,28 +23,28 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> CSS </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> JavaScript </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> React </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> Tailwind </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Beginner </small>
               </div>
             </article>
           </div>
@@ -70,21 +70,28 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> C </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> GraphQL </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4> OCaml </h4>
-                <small className="text-light"> Experienced </small>
+                <small className="text-light"> Intermediate </small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4> Rust </h4>
+                <small className="text-light"> Beginner </small>
               </div>
             </article>
           </div>

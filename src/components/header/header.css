@@ -29,8 +29,8 @@ header {
 
 .header__socials::after {
   content: "";
-  width: 8px;
-  height: 2rem;
+  width: 4px;
+  height: 1.5rem;
   background: var(--color-primary);
 }
 
@@ -38,11 +38,13 @@ header {
   background: linear-gradient(var(--color-primary), transparent);
   height: 13rem;
   width: 22rem;
+  /* display: flex;
+  justify-content: center; */
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -52,7 +54,7 @@ header {
   bottom: 50%;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ========= */

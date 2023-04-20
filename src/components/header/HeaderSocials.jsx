@@ -11,15 +11,15 @@ const HeaderSocials = () => {
         target="_blank"
       >
         {" "}
-        <BsLinkedin size={30} />{" "}
+        <BsLinkedin size={20} />{" "}
       </a>
       <a href="https://github.com/sunnychavan" target="_blank">
         {" "}
-        <BsGithub size={30} />
+        <BsGithub size={20} />
       </a>
       <a href="mailto:sc2448@cornell.edu" target="_blank">
         {" "}
-        <AiOutlineMail size={30} />
+        <AiOutlineMail size={20} />
       </a>
     </div>
   );
