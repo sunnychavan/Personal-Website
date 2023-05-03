@@ -19,32 +19,34 @@ const Experience = () => {
           <div className="experience__example__content">
             <div className="experience__example__content__overview">
               <h4>Overview</h4>
-              <h5 className="experience__example__content__overview_h5">
-                I streamlined the publish/subscribe messaging protocol
-                companywide, by creating a common library that enables
-                standardization, easy implementation and extensibility when
-                leveraging multiple event streaming platforms (Kafka, GraphQL
-                Server, Amazon SNS/SQS) within the same service. I deployed this
-                code to a company AWS “dev” server using Docker, Ansible and
-                Jenkins.
+              <h5>
+                I{" "}
+                <span class="underline">
+                  {" "}
+                  created a common library to standardize and simplify
+                </span>{" "}
+                the implementation of the{" "}
+                <span class="underline">
+                  {" "}
+                  publish/subscribe messaging{" "}
+                </span>{" "}
+                protocol across the company. This library{" "}
+                <span class="underline">
+                  {" "}
+                  enables seamless integration with various event streaming
+                  platforms
+                </span>{" "}
+                such as Kafka, GraphQL Server, and Amazon SNS/SQS within the
+                same service. I utilized Docker, Ansible, and Jenkins to deploy
+                the library to the company's AWS "dev" server.
               </h5>
             </div>
-            {/* <div className="experience__example__content__significance">
-              <h4 className="experience__example__content__overview_h4">
-                Significance
-              </h4>
-              <h5 className="experience__example__content__overview_h5">
-                This common library is now offered as a .NET “NuGet” package
-                which can be used by any Blackstone engineer looking for a more
-                streamlined approach to pub/sub messaging between microservices.
-              </h5>
-            </div> */}
           </div>
         </div>
         <div className="experience__example">
           <div className="experience__example__header">
             {" "}
-            <h3> Balyasny Asset Management (BAM) </h3>
+            <h3> Balyasny Asset Management L.P. </h3>
             <h5> Python Developer Intern</h5>
             <h5> June-August 2022 </h5>
           </div>
@@ -53,35 +55,37 @@ const Experience = () => {
             <div className="experience__example__content__overview">
               <h4>Overview</h4>
               <h5>
-                I worked on three separate python projects during this co-op.
-                The first was a script that fetched energy price data files from
-                a government website and visualized the price changes for
-                different timescales (years, months, days). The second was an
-                “Event-Driven Back-Tester” that quantified the accuracy and
-                persistence of various proprietary investment models on
-                different types of sector portfolios. The third was an
-                optimization of BAM’s model parameter testing by introducing
-                multi-processing.
+                During my co-op, I completed{" "}
+                <span class="underline"> three Python projects:</span> The first
+                involved{" "}
+                <span class="underline">
+                  {" "}
+                  creating a script that fetched energy price data
+                </span>{" "}
+                from a government website and{" "}
+                <span class="underline">
+                  {" "}
+                  visualized price changes across different timescales.
+                </span>{" "}
+                For the second project, I{" "}
+                <span class="underline">
+                  {" "}
+                  developed an "Event-Driven Back-Tester"
+                </span>{" "}
+                to assess the accuracy and persistence of proprietary investment
+                models across various sector portfolios. Thirdly, I{" "}
+                <span class="underline">
+                  {" "}
+                  optimized BAM's model parameter testing
+                </span>{" "}
+                process by introducing multi-processing.
               </h5>
             </div>
-            {/* <div className="experience__example__content__significance">
-              <h4>Significance</h4>
-              <h5>
-                Using crontab, I scheduled the energy price script (first
-                project) to run automatically, every week, on the specific day
-                and time when new energy data becomes available. The script
-                sends the outputted visualizations to my mentor via email, who
-                required this up to date data for his work. The “Event-Driven
-                Back-Tester” (second project) will be extended and potentially
-                used company wide. Finally the optimizations made in the third
-                project decreased the model parameter testing by 93%.
-              </h5>
-            </div> */}
           </div>
         </div>
         <div className="experience__example">
           <div className="experience__example__header">
-            <h3> Regeneron Pharmaceuticals </h3>
+            <h3> Regeneron Pharmaceuticals Inc. </h3>
             <h5> Applications Developer Intern</h5>
             <h5> June-August 2022 </h5>
           </div>
@@ -89,22 +93,20 @@ const Experience = () => {
             <div className="experience__example__content__overview">
               <h4>Overview</h4>
               <h5>
-                I developed an executive-facing automated dashboard that
-                centralized, cleaned, and analyzed UI Path Bot data from various
-                sources and displayed visualizations on metrics such as
-                earnings, success rates, and hours saved -- tailored to each
-                department.
+                I{" "}
+                <span class="underline">
+                  developed an executive-facing automated dashboard
+                </span>{" "}
+                that centralized, cleaned, and analyzed UI Path Bot data from
+                various sources and{" "}
+                <span class="underline">
+                  {" "}
+                  displayed visualizations on metrics
+                </span>{" "}
+                such as earnings, success rates, and hours saved -- tailored to
+                each department.
               </h5>
             </div>
-            {/* <div className="experience__example__content__significance">
-              <h4>Significance</h4>
-              <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente laborum libero, optio et ipsam quas animi modi eum,
-                consequatur eligendi harum amet repudiandae impedit! Atque quos
-                repellat cumque ducimus earum?
-              </h5>
-            </div> */}
           </div>
         </div>
       </div>

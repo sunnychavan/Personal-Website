@@ -13,111 +13,123 @@ const Portfolio = () => {
       <h2> Portfolio </h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src={Monopoly}
-              alt=""
-              className="portfolio__item-image-monopoly"
-            />
+        <div className="portfolio__column">
+          <div class="portfolio__title"> Personal Projects </div>
+          <div className="portfolio__category">
+            <article className="portfolio__item" id="c1_header">
+              <div className="portfolio__item-image">
+                <img
+                  src={Monopoly}
+                  alt=""
+                  className="portfolio__item-image-monopoly"
+                />
+              </div>
+              <h3> Monopoly </h3>
+              <div className="portfolio__item-cta">
+                {" "}
+                <a
+                  href="https://github.com/sunnychavan/Monopoly"
+                  className="btn"
+                  target="_blank"
+                >
+                  {" "}
+                  Github{" "}
+                </a>
+              </div>
+            </article>
           </div>
-          <h3> Monopoly </h3>
-          <div className="portfolio__item-cta">
-            {" "}
-            <a
-              href="https://github.com/sunnychavan/Monopoly"
-              className="btn"
-              target="_blank"
-            >
-              {" "}
-              Github{" "}
-            </a>
+        </div>
+        <div className="portfolio__column">
+          <div class="portfolio__title"> Data Analysis </div>
+          <div className="portfolio__category">
+            <article className="portfolio__item" id="c2_header">
+              <div className="portfolio__item-image">
+                <img
+                  src={AirportTravel}
+                  alt=""
+                  className="portfolio__item-image-airport_travel"
+                />
+              </div>
+              <h3> Airport Travel </h3>
+              <div className="portfolio__item-cta">
+                {" "}
+                <a
+                  href="https://github.com/sunnychavan/AirportTravel"
+                  className="btn"
+                  target="_blank"
+                >
+                  {" "}
+                  Github{" "}
+                </a>
+              </div>
+            </article>
+            <article className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img
+                  src={Covid19Report}
+                  alt=""
+                  className="portfolio__item-image-covid19report"
+                />
+              </div>
+              <h3> Covid-19 Stock Market Data </h3>
+              <div className="portfolio__item-cta">
+                {" "}
+                <a
+                  href="https://github.com/sunnychavan/COVID-19-US-Stock-Market"
+                  className="btn"
+                  target="_blank"
+                >
+                  {" "}
+                  Github{" "}
+                </a>
+              </div>
+            </article>
           </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src={AirportTravel}
-              alt=""
-              className="portfolio__item-image-airport_travel"
-            />
+        </div>
+        <div className="portfolio__column">
+          <div class="portfolio__title">Sustainable Design</div>
+          <div className="portfolio__category">
+            <article className="portfolio__item" id="c3_header">
+              <div className="portfolio__item-image">
+                <img
+                  src={EWBwebsite}
+                  alt=""
+                  className="portfolio__item-image-EWBwebsite"
+                />
+              </div>
+              <h3> EWB Website </h3>
+              <div className="portfolio__item-cta">
+                <a
+                  href="https://github.com/juhi135/ewb-dig-ag-site"
+                  className="btn"
+                  target="_blank"
+                >
+                  Github{" "}
+                </a>
+              </div>
+            </article>
+            <article className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img
+                  src={EWBgui}
+                  alt=""
+                  className="portfolio__item-image-EWBwebsite"
+                />
+              </div>
+              <h3> EWB GUI </h3>
+              <div className="portfolio__item-cta">
+                {" "}
+                <a
+                  href="https://github.com/sunnychavan/EWB-GUI"
+                  className="btn"
+                  target="_blank"
+                >
+                  Github{" "}
+                </a>
+              </div>
+            </article>
           </div>
-          <h3> Airport Travel </h3>
-          <div className="portfolio__item-cta">
-            {" "}
-            <a
-              href="https://github.com/sunnychavan/AirportTravel"
-              className="btn"
-              target="_blank"
-            >
-              {" "}
-              Github{" "}
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src={Covid19Report}
-              alt=""
-              className="portfolio__item-image-covid19report"
-            />
-          </div>
-          <h3> Covid-19 Stock Market Data </h3>
-          <div className="portfolio__item-cta">
-            {" "}
-            <a
-              href="https://github.com/sunnychavan/COVID-19-US-Stock-Market"
-              className="btn"
-              target="_blank"
-            >
-              {" "}
-              Github{" "}
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src={EWBwebsite}
-              alt=""
-              className="portfolio__item-image-EWBwebsite"
-            />
-          </div>
-          <h3> Engineers Without Borders Website </h3>
-          <div className="portfolio__item-cta">
-            {" "}
-            <a
-              href="https://github.com/juhi135/ewb-dig-ag-site"
-              className="btn"
-              target="_blank"
-            >
-              {" "}
-              Github{" "}
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src={EWBgui}
-              alt=""
-              className="portfolio__item-image-EWBwebsite"
-            />
-          </div>
-          <h3> Engineers Without Borders GUI </h3>
-          <div className="portfolio__item-cta">
-            {" "}
-            <a
-              href="https://github.com/sunnychavan/EWB-GUI"
-              className="btn"
-              target="_blank"
-            >
-              {" "}
-              Github{" "}
-            </a>
-          </div>
-        </article>
+        </div>
       </div>
     </section>
   );
