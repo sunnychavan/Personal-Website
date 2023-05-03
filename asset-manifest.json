@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a0706fb.css",
-    "main.js": "/static/js/main.c2949336.js",
+    "main.css": "/static/css/main.9653e1f1.css",
+    "main.js": "/static/js/main.beae19cc.js",
     "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
-    "static/media/EWBWebsite.png": "/static/media/EWBWebsite.6cb1bdf3a64669f872fc.png",
-    "static/media/CS3300AirportTravel.png": "/static/media/CS3300AirportTravel.4e09a7d5e8155019f19d.png",
-    "static/media/EWBGUI.png": "/static/media/EWBGUI.79a66a0e503a7414a58c.png",
-    "static/media/Covid19StockMarket.png": "/static/media/Covid19StockMarket.08c6e3cd68cab4bdaca4.png",
+    "static/media/EWBWebsite.png": "/static/media/EWBWebsite.534000a0d2a9baeee14b.png",
+    "static/media/CS3300AirportTravel.png": "/static/media/CS3300AirportTravel.2c24fdff44b409b61cf1.png",
+    "static/media/EWBGUI.png": "/static/media/EWBGUI.c50020f771f9def33b50.png",
+    "static/media/Covid19StockMarket.png": "/static/media/Covid19StockMarket.ccd3c439dbcd79c1b718.png",
     "static/media/BlackStoneHeadShotBackGroundRemoved.png": "/static/media/BlackStoneHeadShotBackGroundRemoved.8107c05ca6f717d695bc.png",
+    "static/media/Prof_photo_upperHalf_450_300.png": "/static/media/Prof_photo_upperHalf_450_300.f148a5bea3f7c535d07c.png",
     "static/media/SunnyChavanResumePersonalInfoRemoved.pdf": "/static/media/SunnyChavanResumePersonalInfoRemoved.e95f67906375107f0b34.pdf",
-    "static/media/Monopoly.png": "/static/media/Monopoly.d2b41a302887733f7bc7.png",
+    "static/media/Monopoly.png": "/static/media/Monopoly.9bb2d14de048de69adba.png",
+    "static/media/blackstone_headshot_circle.png": "/static/media/blackstone_headshot_circle.084844f28dd0a9b01f99.png",
     "static/media/bg-texture6.png": "/static/media/bg-texture6.d96df2cc1c641fcc67dc.png",
     "index.html": "/index.html",
-    "main.9a0706fb.css.map": "/static/css/main.9a0706fb.css.map",
-    "main.c2949336.js.map": "/static/js/main.c2949336.js.map",
+    "main.9653e1f1.css.map": "/static/css/main.9653e1f1.css.map",
+    "main.beae19cc.js.map": "/static/js/main.beae19cc.js.map",
     "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0706fb.css",
-    "static/js/main.c2949336.js"
+    "static/css/main.9653e1f1.css",
+    "static/js/main.beae19cc.js"
   ]
 }
