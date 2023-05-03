@@ -1,6 +1,6 @@
 .skills__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -27,6 +27,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .skills__details {

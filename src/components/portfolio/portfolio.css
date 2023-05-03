@@ -32,12 +32,6 @@
   padding: 30px;
   border-radius: 0 0 2rem 2rem;
 }
-/* 
-#c1_header,
-#c2_header,
-#c3_header {
-  margin-top: 40px;
-} */
 
 .portfolio__item {
   background: var(--color-bg-variant);
@@ -48,6 +42,13 @@
   /* border-color: var(--color-white); */
   /* border-color: rgba(77, 181, 255, 0.8); */
   /* transition: var(--transition); */
+}
+
+.portfolio__item:hover {
+  background: transparent;
+  border: 1px solid;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 /* .portfolio__column::after {
