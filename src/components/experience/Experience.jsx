@@ -48,7 +48,7 @@ const Experience = () => {
             {" "}
             <h3> Balyasny Asset Management L.P. </h3>
             <h5> Python Developer Intern</h5>
-            <h5> June-August 2022 </h5>
+            <h5> January-May 2022 </h5>
           </div>
 
           <div className="experience__example__content">
@@ -87,7 +87,7 @@ const Experience = () => {
           <div className="experience__example__header">
             <h3> Regeneron Pharmaceuticals Inc. </h3>
             <h5> Applications Developer Intern</h5>
-            <h5> June-August 2022 </h5>
+            <h5> June-August 2021 </h5>
           </div>
           <div className="experience__example__content">
             <div className="experience__example__content__overview">
