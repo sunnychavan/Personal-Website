@@ -1,21 +1,71 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2.5rem;
 }
+
+.portfolio__title {
+  /* background-color: rgba(77, 181, 255, 0.4); */
+  /* background-color: var(--color-bg-variant); */
+  /* border: 3px solid;
+  border-color: var(--color-primary-variant); */
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50% 50% 0 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  top: 35px;
+  z-index: 1;
+  /* text-decoration: underline; */
+}
+
+.portfolio__category {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 50px;
+  background: transparent;
+  /* border: 3px solid;
+  border-color: var(--color-primary-variant); */
+  padding: 30px;
+  border-radius: 0 0 2rem 2rem;
+}
+/* 
+#c1_header,
+#c2_header,
+#c3_header {
+  margin-top: 40px;
+} */
 
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.3rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
+  /* border: 2px solid; */
+  /* border-color: var(--color-primary-variant); */
+  /* border-color: var(--color-white); */
+  /* border-color: rgba(77, 181, 255, 0.8); */
+  /* transition: var(--transition); */
 }
 
+/* .portfolio__column::after {
+  content: "";
+  width: 30px;
+  height: 20rem;
+  background: var(--color-white);
+} */
+/* 
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
-}
+} */
+
+/* .portfolio__column {
+  background: transparent;
+  border-color: var(--color-primary);
+} */
 
 .portfolio__item-image {
   border-radius: 1.5rem;
@@ -26,16 +76,24 @@
   margin: 1.2rem 0rem 2rem;
   text-align: center;
   margin-left: auto;
+  color: var(--color-light);
 }
 
 .portfolio__item-cta {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* color: var(--color-primary-variant); */
   /* gap: 1rem;
   margin-bottom: 1rem;
   margin-left: 40%; */
 }
+
+/* .portfolio__column_separator {
+  width: 1px;
+  background: var(--color-white);
+  margin-top: 3rem;
+} */
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ========= */
 

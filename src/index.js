@@ -16,9 +16,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <Header />
-    <Skills />
-    <Experience />
     <Portfolio />
+    <Experience />
+    <Skills />
     <Contacts />
     <Footer />
   </>

@@ -13,12 +13,11 @@
 ## Still Needs Work:
 
 - Divide skills into front end, backend and deployment?
-- fix header headshot
+- fix header formatting for smaller devices
 - Mess With color scheme specially with icon background and title -> run through color blind simulator thing
 - Experience Page: do not use bullet points but shorten text and highlight collaboration and things you did via highlighting or underlining
-- Project Showcase: Break Down into different categories
-- adding more than just being a generalist
-- action shot pictures of me being an engineer?
+- Project Showcase: fix category titles (underline)
+- Projecr Showcase: add white lines between categories?
 
 # Getting Started with Create React App
 
