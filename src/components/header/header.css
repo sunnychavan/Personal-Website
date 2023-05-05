@@ -1,5 +1,5 @@
 header {
-  height: 68vh;
+  height: 80vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -24,7 +24,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 27%;
-  bottom: 10%;
+  bottom: 25%;
 }
 
 .header__socials::after {
@@ -52,7 +52,7 @@ header {
 .scroll__down {
   position: absolute;
   right: 25%;
-  bottom: 23%;
+  bottom: 38%;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1rem;
@@ -62,7 +62,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 90vh;
+    height: 95vh;
   }
 
   .header__socials,
@@ -73,13 +73,37 @@ header {
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ========= */
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 80vh;
   }
 }
 
 @media screen and (max-width: 400px) {
+  header {
+    height: 90vh;
+  }
+}
+
+/* @media screen and (max-aspect-ratio: 0.6) {
+  header {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 0.48) {
+  header {
+    height: 0vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 0.7) {
+  header {
+    height: 55vh;
+  }
+} */
+
+/* @media screen and (max-width: 400px) {
   header {
     height: 100vh;
   }
