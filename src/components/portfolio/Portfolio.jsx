@@ -5,6 +5,7 @@ import AirportTravel from "../../Assets/CS3300AirportTravel.png";
 import Covid19Report from "../../Assets/Covid19StockMarket.png";
 import EWBwebsite from "../../Assets/EWBWebsite.png";
 import EWBgui from "../../Assets/EWBGUI.png";
+import MilestoneBoard from "../../Assets/MilestoneCommandLineBoard.png";
 
 const Portfolio = () => {
   return (
@@ -29,6 +30,27 @@ const Portfolio = () => {
                 {" "}
                 <a
                   href="https://github.com/sunnychavan/Monopoly"
+                  className="btn"
+                  target="_blank"
+                >
+                  {" "}
+                  Github{" "}
+                </a>
+              </div>
+            </article>
+            <article className="portfolio__item" id="c1_header">
+              <div className="portfolio__item-image">
+                <img
+                  src={MilestoneBoard}
+                  alt=""
+                  className="portfolio__item-image-milestone"
+                />
+              </div>
+              <h3> Milestone Board Game AI </h3>
+              <div className="portfolio__item-cta">
+                {" "}
+                <a
+                  href="https://github.com/sunnychavan/Milestone"
                   className="btn"
                   target="_blank"
                 >

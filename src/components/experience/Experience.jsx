@@ -26,10 +26,7 @@ const Experience = () => {
                   created a common library to standardize and simplify
                 </span>{" "}
                 the implementation of the{" "}
-                <span class="underline">
-                  {" "}
-                  publish/subscribe messaging{" "}
-                </span>{" "}
+                <span class="underline"> publish/subscribe messaging</span>{" "}
                 protocol across the company. This library{" "}
                 <span class="underline">
                   {" "}
