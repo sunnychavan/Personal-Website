@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7e5bb39.css",
-    "main.js": "/static/js/main.dbb6325d.js",
+    "main.css": "/static/css/main.bb90e363.css",
+    "main.js": "/static/js/main.e76db093.js",
     "static/js/787.67b99310.chunk.js": "/static/js/787.67b99310.chunk.js",
     "static/media/EWBWebsite.png": "/static/media/EWBWebsite.534000a0d2a9baeee14b.png",
     "static/media/CS3300AirportTravel.png": "/static/media/CS3300AirportTravel.2c24fdff44b409b61cf1.png",
@@ -10,16 +10,17 @@
     "static/media/BlackStoneHeadShotBackGroundRemoved.png": "/static/media/BlackStoneHeadShotBackGroundRemoved.8107c05ca6f717d695bc.png",
     "static/media/Prof_photo_upperHalf_450_300.png": "/static/media/Prof_photo_upperHalf_450_300.f148a5bea3f7c535d07c.png",
     "static/media/SunnyChavanResumePersonalInfoRemoved.pdf": "/static/media/SunnyChavanResumePersonalInfoRemoved.e95f67906375107f0b34.pdf",
+    "static/media/MilestoneCommandLineBoard.png": "/static/media/MilestoneCommandLineBoard.b635675ad0fb15918943.png",
     "static/media/Monopoly.png": "/static/media/Monopoly.9bb2d14de048de69adba.png",
     "static/media/blackstone_headshot_circle.png": "/static/media/blackstone_headshot_circle.084844f28dd0a9b01f99.png",
     "static/media/bg-texture6.png": "/static/media/bg-texture6.d96df2cc1c641fcc67dc.png",
     "index.html": "/index.html",
-    "main.c7e5bb39.css.map": "/static/css/main.c7e5bb39.css.map",
-    "main.dbb6325d.js.map": "/static/js/main.dbb6325d.js.map",
+    "main.bb90e363.css.map": "/static/css/main.bb90e363.css.map",
+    "main.e76db093.js.map": "/static/js/main.e76db093.js.map",
     "787.67b99310.chunk.js.map": "/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e5bb39.css",
-    "static/js/main.dbb6325d.js"
+    "static/css/main.bb90e363.css",
+    "static/js/main.e76db093.js"
   ]
 }
