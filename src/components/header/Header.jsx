@@ -3,6 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import Me from "../../Assets/BlackStoneHeadShotBackGroundRemoved.png";
 import Me2 from "../../Assets/Prof_photo_upperHalf_450_300.png";
+import GradPic from "../../Assets/GradPic.png";
 import MeCircle from "../../Assets/blackstone_headshot_circle.png";
 import HeaderSocials from "./HeaderSocials";
 
@@ -16,7 +17,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={Me2} alt="me" />
+          <img src={GradPic} alt="me" />
         </div>
 
         <a href="#contacts" className="scroll__down">
